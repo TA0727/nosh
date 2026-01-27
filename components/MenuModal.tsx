@@ -1,8 +1,8 @@
 "use client";
 
-import type { MenuItem } from "@/lib/types";
-import { jpy } from "@/lib/money";
-import { useCart } from "@/store/cart";
+import type { MenuItem } from "../lib/types";
+import { jpy } from "../lib/money";
+import { useCart } from "../store/cart";
 
 export default function MenuModal({
   item,

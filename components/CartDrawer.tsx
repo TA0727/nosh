@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useCart } from "@/store/cart";
-import { jpy } from "@/lib/money";
+import { useCart } from "../store/cart";
+import { jpy } from "../lib/money";
 import Quantity from "./Quantity";
 
 export default function CartDrawer() {

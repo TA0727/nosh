@@ -1,6 +1,6 @@
 "use client";
 
-import { useCart } from "@/store/cart";
+import { useCart } from "../store/cart";
 
 export default function PlanPicker() {
   const { state, setPlan } = useCart();

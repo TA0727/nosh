@@ -1,9 +1,9 @@
 "use client";
 
-import type { MenuItem } from "@/lib/types";
-import { jpy } from "@/lib/money";
+import type { MenuItem } from "../lib/types";
+import { jpy } from "../lib/money";
 import Badge from "./Badge";
-import { useCart } from "@/store/cart";
+import { useCart } from "../store/cart";
 
 export default function MenuCard({
   item,

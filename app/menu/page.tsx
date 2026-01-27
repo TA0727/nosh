@@ -1,6 +1,6 @@
-import MenuGrid from "@/components/MenuGrid";
-import PlanPicker from "@/components/PlanPicker";
-import { MENU } from "@/lib/data";
+import MenuGrid from "../components/MenuGrid";
+import PlanPicker from "../components/PlanPicker";
+import { MENU } from "../lib/data";
 
 export default function MenuPage() {
   return (

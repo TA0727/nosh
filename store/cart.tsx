@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useMemo, useReducer } from "react";
-import type { MenuItem, Plan } from "@/lib/types";
+import type { MenuItem, Plan } from "../lib/types";
 
 type CartLine = {
   item: MenuItem;

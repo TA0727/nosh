@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { MenuCategory, MenuItem } from "@/lib/types";
+import type { MenuCategory, MenuItem } from "../lib/types";
 import MenuCard from "./MenuCard";
 import MenuModal from "./MenuModal";
 
