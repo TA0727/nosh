@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { CartProvider } from "@/store/cart";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import CartDrawer from "@/components/CartDrawer";
+import { CartProvider } from "../store/cart";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import CartDrawer from "../components/CartDrawer";
 
 export const metadata: Metadata = {
   title: "SAKEMARU Meals (Demo)",
