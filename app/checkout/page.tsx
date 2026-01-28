@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useCart } from "../store/cart";
-import { jpy } from "../lib/money";
+import { useCart } from "../../store/cart";
+import { jpy } from "../../lib/money";
 
 export default function CheckoutPage() {
   const router = useRouter();
