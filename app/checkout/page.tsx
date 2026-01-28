@@ -7,7 +7,7 @@ import { jpy } from "../../lib/money";
 
 export default function CheckoutPage() {
   const router = useRouter();
-  const { state, subtotal, toggleDrawer, remove, setQty, setPlan, add, lineCount, clear } = useCart();
+  const { state, subtotal, toggleDrawer, remove, setQty, setPlan, add, lineCount } = useCart();
   const [loading, setLoading] = useState(false);
 
   const canSubmit = state.lines.length > 0;
@@ -27,7 +27,6 @@ export default function CheckoutPage() {
 
     setLoading(true);
     await new Promise((r) => setTimeout(r, 600));
-    clear();
     router.push("/thanks");
   }
 
