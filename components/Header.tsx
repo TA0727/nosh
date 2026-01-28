@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCart } from "@/store/cart";
+import { useCart } from "../store/cart";
 
 export default function Header() {
   const { lineCount, toggleDrawer } = useCart();
